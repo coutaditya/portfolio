@@ -6,6 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import cp from "./cp.png";
+import datascience from "./datascience.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,19 +22,35 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import android from "./tech/android.png";
+import qt from "./tech/qt.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import amazon from "./company/amazon.png";
+import codechefnitj from "./company/codechefnitj.jpeg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import whatsappconnect from "./whatsappconnect.png"
+import foodfusion from "./foodfusion.png"
+import sudokusolver from "./sudokusolver.png"
 
 export {
   logo,
   backend,
+  cp,
+  datascience,
+  amazon,
+  codechefnitj,
+  android,
+  qt,
+  whatsappconnect,
+  foodfusion,
+  sudokusolver,
   creator,
   mobile,
   web,

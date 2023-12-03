@@ -1,6 +1,15 @@
 import {
     mobile,
     backend,
+    datascience,
+    cp,
+    amazon,
+    codechefnitj,
+    android,
+    qt,
+    whatsappconnect,
+    foodfusion,
+    sudokusolver,
     creator,
     web,
     javascript,
@@ -50,12 +59,12 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Competitive Programmer",
+      icon: cp,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Data Science Enthusiast",
+      icon: datascience,
     },
   ];
   
@@ -93,8 +102,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Android",
+      icon: android,
     },
     {
       name: "Three JS",
@@ -105,8 +114,8 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Qt",
+      icon: qt,
     },
     {
       name: "docker",
@@ -116,150 +125,83 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "SDE Intern",
+      company_name: "Amazon",
+      icon: amazon,
+      iconBg: "#ffffff",
+      date: "May 2023 - July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked on building various components of the tool that provides data storage and debugging capabilities for Just Walk Out Stores",
+        "Used – React.js, Redux, Java, Python, AWS Services (Athena, Glue, S3, Lambda, Secrets Manager, Step Function, API Gateway, DynamoDB)",
+        "Accompanied and helped mentors on numerous customer calls and presentations.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Problem Setter",
+      company_name: "Codechef NITJ Chapter",
+      icon: codechefnitj,
+      iconBg: "#ffffff",
+      date: "Sept 2021 - Mar 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created problems of different difficulty levels for various online contests to be held on Codechef along with editorials.",
+        "Managed and lead group of problem setters to successfully host contests.",
+        "Used - Competitive programming and Problem solving concepts"
       ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Whatsapp Connect",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This is a web-based application that streamlines the initiation initiation of WhatsApp conversation, eliminating the need to add a contact’s number to the user’s phone contact list.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: whatsappconnect,
+      source_code_link: "https://github.com/coutaditya/Whatsapp-Connect/",
+    },
+    {
+      name: "Food Fusion",
+      description:
+        "This is an elegant food ordering web application with various functionalities.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: foodfusion,
+      source_code_link: "https://github.com/coutaditya/Food-Order-App",
     },
     {
-      name: "Job IT",
+      name: "Sudoku Solver",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This is an application that inputs an unsolved 9X9 sudoku from the user and outputs the solution.",
       tags: [
         {
-          name: "react",
+          name: "Qt",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Backtracking",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "c++",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: sudokusolver,
+      source_code_link: "https://github.com/coutaditya/Sudoku-Solver",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
