@@ -32,6 +32,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    o9,
+    resumevalidator
   } from "../assets";
   
   export const navLinks = [
@@ -55,7 +57,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "ReactJS Developer",
       icon: mobile,
     },
     {
@@ -125,6 +127,17 @@ import {
   
   const experiences = [
     {
+      title: "R&D Intern",
+      company_name: "o9 Solutions",
+      icon: o9,
+      iconBg: "#ffffff",
+      date: "Jan 2024 - Current",
+      points: [
+        "Working with the monitoring team to create multiple scripts and automations that improve the overall workflow of the org and reduce the scope of manual errors.",
+        "Used – Python, ELK, Ansible, Kubernetes, Docker, Cloud Computing",
+      ],
+    },
+    {
       title: "SDE Intern",
       company_name: "Amazon",
       icon: amazon,
@@ -152,6 +165,27 @@ import {
   
   const projects = [
     {
+      name: "Resume Validator",
+      description:
+        "This is a web-based application that enables users to upload multiple resumes, perform queries, and utilize a comparator to rank resumes against job descriptions based on matching skills.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenAI APIs",
+          color: "orange-text-gradient"
+        }
+      ],
+      image: resumevalidator,
+      source_code_link: "https://github.com/coutaditya/resume-validator-frontend/",
+    },
+    {
       name: "Whatsapp Connect",
       description:
         "This is a web-based application that streamlines the initiation initiation of WhatsApp conversation, eliminating the need to add a contact’s number to the user’s phone contact list.",
@@ -163,23 +197,6 @@ import {
       ],
       image: whatsappconnect,
       source_code_link: "https://github.com/coutaditya/Whatsapp-Connect/",
-    },
-    {
-      name: "Food Fusion",
-      description:
-        "This is an elegant food ordering web application with various functionalities.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "firebase",
-          color: "green-text-gradient",
-        },
-      ],
-      image: foodfusion,
-      source_code_link: "https://github.com/coutaditya/Food-Order-App",
     },
     {
       name: "Sudoku Solver",

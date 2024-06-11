@@ -31,6 +31,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import amazon from "./company/amazon.png";
 import codechefnitj from "./company/codechefnitj.jpeg"
+import o9 from "./company/o9.jpeg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -38,6 +39,7 @@ import tripguide from "./tripguide.png";
 import whatsappconnect from "./whatsappconnect.png"
 import foodfusion from "./foodfusion.png"
 import sudokusolver from "./sudokusolver.png"
+import resumevalidator from "./ResumeValidator.png"
 
 export {
   logo,
@@ -77,4 +79,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  o9,
+  resumevalidator
 };

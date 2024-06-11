@@ -48,7 +48,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         Versatile developer passionate about Web Development, Data Science, Competitive Programming, and DevOps. 
-        Experienced in React.js, Java for backend, Kotlin/Java for Android, and Python for Data Science. 
+        Experienced in React.js, Java/Express.js for backend, Kotlin/Java for Android, and Python for Data Science. 
         A 5-star Codechef competitive programmer with a knack for problem-solving. 
         Quick learner, team player, and excited about turning ideas into reality. Let's collaborate!
       </motion.p>
